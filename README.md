@@ -24,5 +24,9 @@ You can learn more about Kelvin here at [kelvin.legal](https://kelvin.legal).
   - Kelvin Source
   - Kelvin NLP
   - Kelvin API
-
+* [Summarize and answer questions about invoice](notebooks/summarize_invoice.ipynb)
+  - Kelvin Source
+  - Kelvin Billing
+  - Kelvin NLP
+  - Kelvin API
 
