@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "kelvin-public-examples"
+version = "0.1.0"
+description = ""
+authors = ["273 Ventures <hello@273ventures.com>"]
+readme = "README.md"
+packages = [{include = "kelvin_public_examples"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.6.3"
+
+# Kelvin API is a Python package that depends only on `httpx` and can be used as an ultra-lightweight client to
+# the Kelvin Legal Data OS API.
+
+# Other Kelvin modules can be used directly on Windows, Linux, and Mac for local development, testing, and data
+# science use cases.
+
+# Kelvin modules and API access are available to 273 Ventures customers with active licenses or subscriptions.
+pandas = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
